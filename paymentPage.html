@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment - EasyFoodUUM.my</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="logo2.png" class="logo">
+            <h1>EasyFood.my</h1>
+
+            <!--input class = "srch" type ="text" id="searchInput" placeholder="Search food..." onkeyup="searchFood()"-->
+        </div>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">Sponsorship</a>
+        </nav>
+    </header>
+
+    <h2>Payment Page</h2>
+
+<!-- Address Section -->
+    <section>
+        <h3>Delivery Address</h3>
+        <textarea id="address" rows="4" cols="50" placeholder="Enter your full address here..."></textarea>
+    </section>
+
+<!-- Payment Method Section -->
+    <section>
+        <h3>Payment Method</h3>
+        <label><input type="radio" name="paymentMethod" value="cod" checked> Cash on Delivery (COD)</label><br>
+        <label><input type="radio" name="paymentMethod" value="online"> Online Banking</label>
+    </section>
+
+<!-- Cart Summary -->
+
+    <section class="cart-form">
+        <h2>Order Summary</h2>
+        <ul id="cartList"></ul>
+        <p>Total : RM <span id="totalPrice">0.00</span></p>
+        <button onclick="payNow()">Pay Now</button>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        loadPaymentDetails();
+        });
+    </script>
+    
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
+
+

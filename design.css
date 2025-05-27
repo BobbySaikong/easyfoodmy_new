@@ -1,0 +1,340 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F7FA;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A237E;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Search Bar */
+  .srch {
+    background: white;
+    max-width: 300px;
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+  }
+  
+  /* Ads banner */
+.ads {
+    background-color: #F9A825;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Login Form */
+.login-form {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.login-form button {
+    background-color: #1A237E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+.login-form button:hover {
+    background-color: #303F9F;
+  }
+  
+.social-login {
+    margin-top: 20px;
+  }
+  
+.social-login button {
+    background-color: #F9A825;
+    color: black;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Vendor Section */
+.vendor-form {
+    background: white;
+    padding: 1000px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+  }
+.vendor-section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  
+.vendor-image {
+    max-width: 300px;     /* Limits width */
+    max-height: 200px;    /* Limits height */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px auto; /* Center and give bottom margin */
+    }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .menu-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #303F9F;
+  }
+  
+
+  /* Cart Section */
+  .cart-form {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .cart-form ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-form li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-form li button {
+    background-color: #F44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart-form li button:hover {
+    background-color: #D32F2F;
+  }
+  
+  .cart-form button {
+    background-color: #1A237E;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cart-form button:hover {
+    background-color: #303F9F;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1A237E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* payment Styles */
+  section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+/* rider Form */
+.rider-form {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.notifications {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 220px;
+  border-radius: 8px;
+  
+}
+
+.notification-item {
+  padding: 10px;
+  margin-top: 10px;
+  background: #f5f5f5;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+/* Toggle container styling */
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+
+
+/* Slide button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  left: 3px;
+  bottom: 3px;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #4CAF50;
+}
+
+input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+.backgroundMap
+{ width: 100%; 
+  height: 100vh; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border: none; /* Remove iframe border */ 
+  pointer-events: auto; /* Allow map interaction */ }
+  
+  /*changed from using map.png to only classify class*/
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-item button {
+    background-color: green;
+    color: white;
+}
+
+

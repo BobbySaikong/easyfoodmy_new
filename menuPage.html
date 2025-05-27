@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - EasyFoodUUM.my</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="logo2.png" class="logo">
+            <h1>EasyFood.my</h1>
+
+            <input class = "srch" type ="text" id="searchInput" placeholder="Search food..." onkeyup="searchFood()">
+        </div>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">Sponsorship</a>
+        </nav>
+    </header>
+
+    <div class="vendor-section">
+        <img src="gepuk sultan.png" alt="Vendor 1" class="vendor-image">
+        <p>Ayam Gepuk Sultan</p>
+      
+        <div class="menu-item">
+          <span class="menu-name">Set A - RM 10</span>
+          <button onclick="addToCart('Gepuk Sultan - Set A', 10)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-name">Set B - RM 13.90</span>
+          <button onclick="addToCart('Gepuk Sultan - Set B', 13.90)">Add to Cart</button>
+      </div>
+        <div class="menu-item">
+          <span class="menu-name">Set C - RM 15</span>
+          <button onclick="addToCart('Gepuk Sultan - Set C', 15)">Add to Cart</button>
+        </div>
+    </div>
+      
+      <div class="vendor-section">
+        <img src="he & she.png" alt="Vendor 2" class="vendor-image">
+        <p>He & She</p>
+        <div class="menu-item">
+          <span class="menu-name">Set A - RM 5</span>
+          <button onclick="addToCart('He & She - Set A', 5)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-name">Set B - RM 9</span>
+          <button onclick="addToCart('He & She - Set B', 9)">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="vendor-section">
+        <img src="mixue.png" alt="Vendor 3" class="vendor-image">
+        <p>Mixue</p>
+        <div class="menu-item">
+          <span class="menu-name">Set A - RM 3</span>
+          <button onclick="addToCart('Mixue - Set A', 3)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-name">Set B - RM 4.50</span>
+          <button onclick="addToCart('Mixue - Set B', 4.50)">Add to Cart</button>
+        </div>
+      </div>
+      
+    
+    <section class="cart-form">
+
+        <h2>Shopping Cart</h2>
+        <ul id="cartList"></ul>
+        <p>Total : RM <span id="totalPrice">0.00</span></p>
+        <button onclick="gotonext()">Cart</button>
+    </section>
+
+    
+
+    <script src="javaScript.js"></script>
+</body>
+</html>

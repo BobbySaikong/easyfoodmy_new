@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rider - EasyFoodUUM.my</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    
+    <iframe class="backgroundMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.248176431198!2d100.48558419385238!3d6.450228396657729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cae38281c5ff3%3A0xc662b3352bdf304e!2sSintok%2C%20Bukit%20Kayu%20Hitam%2C%20Kedah!5e0!3m2!1sen!2smy!4v1748291915234!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--copy and pasted from Google Maps with specified area (Sintok,Kedah) , using 'embed a map' features -->
+
+
+    <header>
+        <div class="header-left">
+            <img src="logo2.png" class="logo">
+            <h1>EasyFood.my</h1>
+        </div>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">Sponsorship</a>
+        </nav>
+    </header>
+
+    <h2>Rider Page</h2>
+     
+    <div class="toggle-container">
+        <label class="switch">
+        <input type="checkbox" id="riderToggle" onchange="toggleStatus()">
+        <span class="slider"></span>
+        </label>
+        <span id="statusText">Offline</span>
+    </div>
+    
+    
+    <div class="notifications">
+        <strong>Notification From Vendor</strong>
+        <div class="notification-item" onclick="goToDeliveryPage('Ayam Gepuk Sultan')">
+        Order #123 - Tap to view
+        </div>
+        <div class="notification-item" onclick="goToDeliveryPage('vendor456')">
+        Order #456 - Tap to view
+        </div>
+    </div>
+
+
+
+
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
