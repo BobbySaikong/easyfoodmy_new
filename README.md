@@ -27,6 +27,7 @@ It consist of **3 type of users** :
 1. **Download and unzip the files :**
 **https://files.catbox.moe/k449fa.zip**
 2. **Double-click on `login_page.html` and other files with *.html* type.**
+**_NOTE : Please use your PC/Laptop only._**
 3. **If Confused, open file with 'Google Chrome' or 'Microsoft Edge'**
 ![open with browser](open_files.png)
 4. **Start exploring our project !**
