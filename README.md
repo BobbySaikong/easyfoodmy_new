@@ -3,6 +3,7 @@
 **EasyFoodUUM.my is a ongoing website project focused on expanding and promoting food and beverages business inside and around Universiti Utara Malaysia(UUM) campus area**
 
 **We would like to recieve feedbacks for the project**
+
 It consist of **3 type of users** :
 
 **1. Food delivery rider** :
