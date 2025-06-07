@@ -12,7 +12,7 @@ It consist of **3 type of users** :
 **2. Food Vendor** :
 
 * Registered food vendors can customize and edit food menu and prices accordingly. (Upcoming)
-* Vendors can keep track oncoming orders and customer location to synchronize with riders (using Embed Google Maps)
+* Vendors can keep track oncoming orders and customer location to synchronize with riders location (using Embed Google Maps)
 
 **3. Customers** :
 
@@ -20,15 +20,15 @@ It consist of **3 type of users** :
 * Customers(anyone) are able to orders food with supported payment methods.
 * Customers can set orders pickup location
 
-## 👣 How to Start
+## 👣 How to Start ?
 
 1. Download and unzip the files
 2. Double-click on `start-here.html` and other files with *.html* type.
 3. If Confused, open file with 'Google Chrome' or 'Microsoft Edge'
 ![open with browser](open_files.png)
-4. Start exploring our project.
+4. Start exploring our project !
 
 
 Disclaimer : This is a prototype which is a result from our idea implementation, please leave any feedback from this Google Forms provided:
 
-
+Thanks!
