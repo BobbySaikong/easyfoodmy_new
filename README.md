@@ -1,8 +1,10 @@
-## EasyFoodUUM.my (**_NOTE : Please use your PC/Laptop only._**)
+## EasyFoodUUM.my User Testing (**_NOTE : Please use your PC/Laptop only._**)
 
-**EasyFoodUUM.my is a ongoing website project focused on expanding and promoting food and beverages business inside and around Universiti Utara Malaysia(UUM) campus area**
+## 🚀 PROJECT OVERVIEW
 
-**We would like to recieve feedbacks for the project**
+**EasyFoodUUM.my is a ongoing website project focused on expanding and promoting food and beverages business inside and around Universiti Utara Malaysia (UUM) campus area**
+
+**We would like to recieve feedbacks for the project! : [Feedback/Review Here](https://forms.gle/v9HhhYUnjtKtmMbR7)**
 
 It consist of **3 type of users** :
 
@@ -33,6 +35,8 @@ It consist of **3 type of users** :
 
 4. **Start exploring our project !**
 
-5. **Answer our Feedback/Review form!! :[Review/Feedback Here](https://forms.gle/v9HhhYUnjtKtmMbR7)**
+## ❓REVIEW/FEEDBACK 
 
-THANKS FOR YOUR ATTENTION
+5. **Answer our Feedback/Review form!! : [Review/Feedback Here](https://forms.gle/v9HhhYUnjtKtmMbR7)**
+
+THANKS FOR YOUR ATTENTION !!
