@@ -1,4 +1,4 @@
-## EasyFoodUUM.my 
+## EasyFoodUUM.my (**_NOTE : Please use your PC/Laptop only._**)
 
 **EasyFoodUUM.my is a ongoing website project focused on expanding and promoting food and beverages business inside and around Universiti Utara Malaysia(UUM) campus area**
 
@@ -22,21 +22,17 @@ It consist of **3 type of users** :
 * Customers(anyone) are able to orders food with supported payment methods.
 * Customers can set orders pickup location
 
-## 👣 How to Start ?
+## 👣 HOW TO TEST OUR PROJECT ?
 
-1. **Download and unzip the files :**
-**https://files.catbox.moe/k449fa.zip**
+1. **Download and unzip the files : [Files (zipped,please extract.)](https://files.catbox.moe/k449fa.zip)**
+
 2. **Double-click on `login_page.html` and other files with *.html* type.**
-
-**_NOTE : Please use your PC/Laptop only._**
 
 3. **If Confused, open file with 'Google Chrome' or 'Microsoft Edge'**
 ![open with browser](open_files.png)
+
 4. **Start exploring our project !**
 
+5. **Answer our Feedback/Review form!! :[Review/Feedback Here](https://forms.gle/v9HhhYUnjtKtmMbR7)**
 
-Disclaimer : This is a prototype which is a result from our idea implementation, please leave any feedback from this Google Forms provided:
-
-**https://forms.gle/v9HhhYUnjtKtmMbR7**
-
-Thanks!
+THANKS FOR YOUR ATTENTION
